@@ -1,6 +1,6 @@
 
 let fovData = JSON.parse(localStorage.getItem("favorites")) || [];
-const fovDataItem = document.getElementById("fovorite-items"); // <tbody> element
+const fovDataItem = document.getElementById("fovorite-items"); 
 
 
 function showFov() {
