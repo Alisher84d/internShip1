@@ -1,0 +1,200 @@
+        {
+            "students": [
+                {
+                    "id": 1,
+                    "title": "futbolka",
+                    "price": 3179,
+                    "oldPrice": 4200,
+                    "discount": -25,
+                    "image": "./boy 2.png",
+                    "currency": "₽",
+                    "inStock": true
+                },
+                {
+                    "id": 2,
+                    "title": "telefon",
+                    "price": 3179,
+                    "oldPrice": 14200,
+                    "discount": -25,
+                    "image": "./phone 3.png",
+                    "currency": "₽",
+                    "inStock": true
+                },
+                {
+                    "id": 3,
+                    "title": "shlyapa",
+                    "price": 3179,
+                    "oldPrice": 200,
+                    "discount": -25,
+                    "image": "./hat 2.png",
+                    "currency": "₽",
+                    "inStock": true
+                },
+                {
+                    "id": 4,
+                    "title": "futbolka",
+                    "price": 3179,
+                    "oldPrice": 4200,
+                    "discount": -25,
+                    "image": "./boy 2.png",
+                    "currency": "₽",
+                    "inStock": true
+                },
+                {
+                    "id": 5,
+                    "title": "telefon",
+                    "price": 3179,
+                    "oldPrice": 14200,
+                    "discount": -25,
+                    "image": "./phone 3.png",
+                    "currency": "₽",
+                    "inStock": true
+                },
+                {
+                    "id": 6,
+                    "title": "shlyapa",
+                    "price": 3179,
+                    "oldPrice": 200,
+                    "discount": -25,
+                    "image": "./hat 2.png",
+                    "currency": "₽",
+                    "inStock": true
+                },
+                {
+                    "id": 7,
+                    "title": "futbolka",
+                    "price": 3179,
+                    "oldPrice": 4200,
+                    "discount": -25,
+                    "image": "./boy 2.png",
+                    "currency": "₽",
+                    "inStock": true
+                },
+                {
+                    "id": 8,
+                    "title": "telefon",
+                    "price": 3179,
+                    "oldPrice": 14200,
+                    "discount": -25,
+                    "image": "./phone 3.png",
+                    "currency": "₽",
+                    "inStock": true
+                },
+                {
+                    "id": 9,
+                    "title": "shlyapa",
+                    "price": 3179,
+                    "oldPrice": 200,
+                    "discount": -25,
+                    "image": "./hat 2.png",
+                    "currency": "₽",
+                    "inStock": true
+                }, {
+                    "id": 9,
+                    "title": "shlyapa",
+                    "price": 3179,
+                    "oldPrice": 200,
+                    "discount": -25,
+                    "image": "./hat 2.png",
+                    "currency": "₽",
+                    "inStock": true
+                }, {
+                    "id": 9,
+                    "title": "shlyapa",
+                    "price": 3179,
+                    "oldPrice": 200,
+                    "discount": -25,
+                    "image": "./hat 2.png",
+                    "currency": "₽",
+                    "inStock": true
+                },  {
+                    "id": 7,
+                    "title": "futbolka",
+                    "price": 3179,
+                    "oldPrice": 4200,
+                    "discount": -25,
+                    "image": "./boy 2.png",
+                    "currency": "₽",
+                    "inStock": true
+                }
+               
+                ],
+
+                    "products": [],
+
+                    "computers": [
+                        {
+                            "id": 17,
+                            "title": "PC",
+                            "price": 31799,
+                            "oldPrice": 42000, 
+                            "discount": -25,
+                            "image": "./my-api/ABS_BUILD_1.jpg",
+                            "currency": "₽",
+                            "inStock": true
+                        }
+                    ],
+                    "electronics": [
+                        {
+                            "id": 18,
+                            "title": "Smartphone",
+                            "price": 15999,
+                            "oldPrice": 20000,
+                            "discount": -20,
+                            "image": "./phone 3.png",
+                            "currency": "₽",
+                            "inStock": true
+                        }
+                    ],
+                    "householdGoods": [
+                        {
+                            "id": 19,
+                            "title": "notebook",
+                            "price": 8999,
+                            "oldPrice": 12000,
+                            "discount": -25,
+                            "image": "./my-api/shopping (1).avif",
+                            "currency": "₽",
+                            "inStock": true
+                        }
+                    ],
+                    "womensClothing": [
+                        {
+                            "id": 19,
+                            "title": "",
+                            "price": 8999,
+                            "oldPrice": 12000,
+                            "discount": -25,
+                            "image": "./hat 2.png",
+                            "currency": "₽",
+                            "inStock": true
+                        }
+                    ],
+                    "mensClothing": [
+                        {
+                            "id": 19,
+                            "title": "futbolka",
+                            "price": 8999,
+                            "oldPrice": 12000,
+                            "discount": -25,
+                            "image": "./boy 2.png",
+                            "currency": "₽",
+                            "inStock": true
+                        }
+                    ],
+                    "children": [],
+                    "autoProducts": [],
+                    "beautyHealth": [],
+                    "sportsEntertainment": [
+                        {
+                            "id": 19,
+                            "title": "ball",
+                            "price": 8999,
+                            "oldPrice": 12000,
+                            "discount": -25,
+                            "image": "./my-api/download.jfif",
+                            "currency": "₽",
+                            "inStock": true
+                        }
+                    ]
+                }

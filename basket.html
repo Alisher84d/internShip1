@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basket</title>
+  <link rel="stylesheet" href="./basket.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evb5p8nJMEQvOr1IQMXQM7RhE8DZBW5MKhokCbbe9LoSfLEP8gPEJzPQQSGQJ0CxkABCj1V9Jf3jJd6zPJJKsQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <h1 class="logo">
+
+        <a href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="m254-469 242 241-16 16-268-268 268-268 16 16-242 241h494v22H254Z"/></svg></a>
+      </h1>
+     
+   
+    </div>
+  </header>
+
+
+  <main>
+    <div class="page-title">
+     <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="M297.79-126q-21.85 0-36.32-14.97Q247-155.95 247-178.21q0-22.27 14.67-37.03Q276.34-230 298.17-230T335-215.03q15 14.98 15 37.24 0 22.27-14.97 37.03Q320.05-126 297.79-126Zm368 0q-21.85 0-36.32-14.97Q615-155.95 615-178.21q0-22.27 14.67-37.03Q644.34-230 666.17-230T703-215.03q15 14.98 15 37.24 0 22.27-14.97 37.03Q688.05-126 665.79-126ZM229-752l114 240h263q9 0 16.5-4.5T634-529l108-195q6-11 1-19.5t-17-8.5H229Zm-12-22h500q27 0 40.5 21.5T759-708L655.36-517.72Q647-505 634.44-497.5q-12.56 7.5-26.23 7.5H324l-54 99q-7 12 0 26t22 14h426v22H295q-31 0-45-23t0-49l65-116-150-315H95v-22h84l38 80Zm126 262h282-282Z"/></svg>
+      <h2>Your Basket</h2>
+    </div>
+
+    <div class="content-grid">
+     
+      <div class="basket-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th>Total</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="basket-items">
+           
+          </tbody>
+        </table>
+      </div>
+
+  
+      <div class="order-summary">
+        <h3>Order Summary</h3>
+
+        <div class="summary-items">
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span id="subtotal">$0.00</span>
+          </div>
+          <div class="summary-row">
+           
+           
+          </div>
+          <div class="summary-row">
+            <span>Tax (10%)</span>
+            <span id="tax">$0</span>
+          </div>
+          <div class="summary-total">
+            <span>Total</span>
+            <span id="total">$0</span>
+          </div>
+        </div>
+
+       
+
+       
+      </div>
+    </div>
+  </main>
+
+  <script src="./basket.js"></script>
+</body>
+
+</html>

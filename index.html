@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <a href="#">Products</a>
+        <a href="#">Bestsellers</a>
+        <a href="#">Popular Questions</a>
+        <a href="#">🇷🇺 Russia | ₽</a>
+    </div>
+
+    <div class="header">
+        <div class="logo-section">
+            <button class="menu-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></button>
+            <div class="logo">
+                
+                
+            </div>
+            <div class="logo-text"><img src="./Лого.png" alt=""></div>
+        </div>
+    
+        <div class="search-section">
+            <div class="search-box">
+                <select name="category" id="category-select">
+                    <option>All</option>
+                    <option>Electronics</option>
+                    <option>Fashion</option>
+                    <option>Beauty</option>
+                </select>
+                <input type="search" placeholder="Search for products..." id="searchInput">
+                <button id="searchBtn"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="M785.23-154.08 529.15-410.15q-29.69 26.82-69.26 40.91-39.56 14.09-79.58 14.09-95.59 0-161.79-66.03-66.21-66.03-66.21-161t66.03-161.13q66.03-66.15 160.94-66.15t161.51 66.06q66.59 66.07 66.59 160.96 0 41.21-14.76 80.82-14.77 39.62-41.24 69.24l256.31 255.07-22.46 23.23ZM380.08-385.92q82.66 0 139.6-56.73t56.94-139.66q0-82.92-56.94-139.65-56.94-56.73-139.6-56.73-82.86 0-139.93 56.73-57.07 56.73-57.07 139.65 0 82.93 57.07 139.66 57.07 56.73 139.93 56.73Z"/></svg></button>
+            </div>
+        </div>
+
+        <div class="header-actions">
+            <div class="header-icon">
+              <a href="./login.html">  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+               </a> <span>Login</span>
+            </div>
+            <div class="header-icon">
+              <a href="./fovorites.html"> <svg fill="currentColor" viewBox="0 0 24 24"> <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                <span class="badge">2</span>
+                <span>Favorites</span></a>
+            </div>
+            <div class="header-icon">
+                    <span>0</span>
+               <a href="./basket.html"> <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                </a>
+                <span>Cart</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">  
+        <aside class="sidebar">
+            <div class="sidebar-header">
+<span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#B87E9F"><path d="M144-264v-72h672v72H144Zm0-180v-72h672v72H144Zm0-180v-72h672v72H144Z"/></svg></span>Popular Categories
+            </div>
+            <ul class="category-list">
+                <li><span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#B87E9F"><path d="M72-144q-29.7 0-50.85-21.15Q0-186.3 0-216h168q-29.7 0-50.85-21.15Q96-258.3 96-288v-456q0-29.7 21.15-50.85Q138.3-816 168-816h624q29.7 0 50.85 21.15Q864-773.7 864-744v456q0 29.7-21.15 50.85Q821.7-216 792-216h168q0 30-21.15 51T888-144H72Zm407.79-36q15.21 0 25.71-10.29t10.5-25.5q0-15.21-10.29-25.71t-25.5-10.5q-15.21 0-25.71 10.29t-10.5 25.5q0 15.21 10.29 25.71t25.5 10.5ZM168-288h624v-456H168v456Zm0 0v-456 456Z"/></svg></span> hammasi</li>
+               <li><span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#B87E9F"><path d="M479.79-96Q450-96 429-117.15T408-168q0-19.53 9.5-36.26Q427-221 444-230v-106H324q-29.7 0-50.85-21.04Q252-378.08 252-407.63V-490q-17-9-26.5-25.5T216-552q0-29.7 21.21-50.85 21.21-21.15 51-21.15T339-602.85q21 21.15 21 50.85 0 20-9.5 36.5T324-490v82h120v-312h-84l120-144 120 144h-84v312h120v-72h-36v-144h144v144h-36v72q0 29.7-21.15 50.85Q665.7-336 636-336H516v106q17.1 9.11 26.55 25.5 9.45 16.4 9.45 36.44Q552-138 530.79-117q-21.21 21-51 21Z"/></svg></span> Electronics</li>
+                <li><span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#B87E9F"><path d="M336-144v-96H168q-29.7 0-50.85-21.16Q96-282.32 96-312.04v-432.24Q96-774 117.15-795T168-816h624q29.7 0 50.85 21.16Q864-773.68 864-743.96v432.24Q864-282 842.85-261T792-240H624v96H336ZM168-312h624v-432H168v432Zm0 0v-432 432Z"/></svg></span> Household Goods</li>
+                <li><span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#B87E9F"><path d="M444-144v-72h-72v-72h72v-76q-73-14-120.5-70.07Q276-490.15 276-564q0-85.16 59.5-144.58Q395-768 480-768t144.5 59.42Q684-649.16 684-564q0 73.85-47.5 129.93Q589-378 516-364v75.8h72v72.2h-72v72h-72Zm36.22-288q54.78 0 93.28-38.72t38.5-93.5q0-54.78-38.72-93.28t-93.5-38.5q-54.78 0-93.28 38.72t-38.5 93.5q0 54.78 38.72 93.28t93.5 38.5Z"/></svg></span> Women's Clothing</li>
+                <li><span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#B87E9F"><path d="M768-768v216h-72v-93L564-513q17.54 26.15 26.77 55.58Q600-428 600-396.41q0 85.48-59.28 144.95Q481.44-192 396.22-192T251.5-251.28Q192-310.56 192-395.78t59.35-144.72Q310.69-600 396-600q32 0 61.5 8.5T513-564l132-132h-93v-72h216ZM395.78-528q-54.78 0-93.28 38.72t-38.5 93.5q0 54.78 38.72 93.28t93.5 38.5q54.78 0 93.28-38.72t38.5-93.5q0-54.78-38.72-93.28t-93.5-38.5Z"/></svg></span> Men's Clothing</li>
+                <li><span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#B87E9F"><path d="M192-384q-40 0-68-28t-28-68q0-40 28-68t68-28v-72q0-29.7 21.15-50.85Q234.3-720 264-720h120q0-40 28-68t68-28q40 0 68 28t28 68h120q29.7 0 50.85 21.15Q768-677.7 768-648v72q40 0 68 28t28 68q0 40-28 68t-68 28v168q0 29.7-21.16 50.85Q725.68-144 695.96-144H263.72Q234-144 213-165.15T192-216v-168Zm168-72q20 0 34-14t14-34q0-20-14-34t-34-14q-20 0-34 14t-14 34q0 20 14 34t34 14Zm228 0q20 0 34-14t14-34q0-20-14-34t-34-14q-20 0-34 14t-14 34q0 20 14 34t34 14ZM336-312h288v-72H336v72Zm-72 96h432v-432H264v432Zm216-216Z"/></svg></span> Everything for Children</li>
+                <li><span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#B87E9F"><path d="M480-96q-79 0-149-30t-122.5-82.5Q156-261 126-331T96-480q0-80 30-149.5t82.5-122Q261-804 331-834t149-30q80 0 149.5 30t122 82.5Q804-699 834-629.5T864-480q0 79-30 149t-82.5 122.5Q699-156 629.5-126T480-96Zm-36-74v-122q-58-11-99.5-52.5T292-444H170q12 109 88.5 185.5T444-170Zm72 0q109-12 185.5-88.5T790-444H668q-11 58-52.5 99.5T516-292v122ZM170-516h118l108-108h168l108 108h118q-14-117-101.5-196.5T480-792q-121 0-208.5 79.5T170-516Z"/></svg></span> Auto Products</li>
+                <li><span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#B87E9F"><path d="M433-168q-9-28-24-53t-35-45q-20-20-45-35t-53-24q2 32 15 59.5t34 48.5q21 21 48.53 33.96Q401.06-170.07 433-168Zm94 0q32-2 59.5-15t48.5-34q21-21 34-48.5t15-59.5q-28 9-53 24t-45 35q-20 20-35 45t-24 53Zm-47-336q70 0 119-49t49-119v-77l-81 54-87-87-87 87-81-54v77q0 70 49 119t119 49ZM444-96q-100 0-170-70t-70-170v-72q71 0 131.5 29T444-294v-137q-87.72-14.29-145.86-82.14Q240-581 240-672v-145q0-22 19-32t37 2l88 59 71-71q11-11 25-11t25 11l71 71 88-59q18-12 37-2t19 32v145q0 91-58.14 158.86Q603.72-445.29 516-431v137q48-56 108.5-85T756-408v72q0 100-70 170T516-96h-72Zm36-547Zm126 396Zm-251 0Z"/></svg></span> Beauty & Health</li>
+                <li><span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#B87E9F"><path d="M170-516h117q-5-40-19.5-77T225-659q-23 32-36.5 68T170-516Zm503 0h117q-5-39-18.5-75T735-659q-27 29-41.5 66T673-516ZM216-315q24-29 43-60.5t24-68.5H170q5 35 16 67.5t30 61.5Zm528 0q20-29 30.5-61.5T790-444H677q5 37 23.5 69t43.5 60ZM359-516h85v-274q-48 5-91.5 25T273-713q38 40 59.5 91T359-516Zm157 0h85q6-55 26.5-106t59.5-90q-36-32-79.5-52.5T516-790v274Zm-72 346v-274h-88q-5 54-31.5 100.5T260-259q38 37 85 59.5t99 29.5Zm72 0q52-7 98.5-29.5T699-259q-38-38-64-84.5T604-444h-88v274Zm-36-310Zm0 384q-79 0-149-30t-122.5-82.5Q156-261 126-331T96-480q0-80 30-149.5t82.5-122Q261-804 331-834t149-30q80 0 149.5 30t122 82.5Q804-699 834-629.5T864-480q0 79-30 149t-82.5 122.5Q699-156 629.5-126T480-96Z"/></svg></span> Sports & Entertainment</li>
+            </ul>
+            <select class="view-all">
+                <option value="">part-1</option>
+                <option value="">part-2</option>
+            </select>
+        </aside>
+
+        <section class="banner-section">
+           <img class="banner-image" src="./Баннер.png" alt="">
+        </section>
+    </div>
+<div class="footer-container">
+<div class="column">
+<h3>For Customers</h3>
+
+
+
+    <section class="section">
+        <div class="section-header">
+            <h2>Best Sellers</h2>
+           
+        </div>
+        <div class="product-grid" id="bestSellers"></div>
+    </section>
+
+    
+
+   
+    
+
+  </div>
+    <footer>
+         <div class="hidden">
+        <h2>"Wide range and high quality"</h2>
+    <p>The online store PlaceMik offers affordable prices and a wide, regularly updated selection. The PlaceMik online catalog features around 35,000 leading brands of women’s, men’s, and children’s clothing and footwear. Customers can also find electronics, books, and children’s products. The online store offers items for the home, groceries, beauty products, jewelry, and toys. For convenience, the online catalog is divided into sections, and all products can be sorted by various criteria such as price and material.</p>
+     <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur dicta natus voluptas culpa voluptatibus ab cumque libero repellendus sapiente ullam reprehenderit aliquid delectus quis, harum asperiores blanditiis earum voluptate ducimus nostrum </p> <p class="p2">neque architecto eaque labore! Odio pariatur quibusdam doloremque sit ad adipisci nam unde dolorem at accusamus? Commodi eum illum similique quisquam voluptatum distinctio soluta eos, necessitatibus ipsum, totam dolorem ab temporibus,</p> <p class="p3">doloremque quae deleniti cupiditate! Sit quis iste architecto necessitatibus tenetur ab magni maxime magnam.</p>
+    <button style="background-color:current-color;"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-328 225-583h510L480-328Z"/></svg></button>
+   
+    </div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Information</h3>
+                <a href="#">About Us</a>
+                <a href="#">Delivery</a>
+                <a href="#">Payment</a>
+                <a href="#">Returns</a>
+            </div>
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <a href="#">Contact Us</a>
+                <a href="#">FAQ</a>
+                <a href="#">Order Tracking</a>
+                <a href="#">Size Guide</a>
+            </div>
+            <div class="footer-section">
+                <h3>My Account</h3>
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+                <a href="#">Order History</a>
+                <a href="#">Wishlist</a>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <div class="social-icon">f</div>
+                    <div class="social-icon">in</div>
+                    <div class="social-icon">ig</div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.2);">
+            <p>© 2024 PLACEE+. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./CODE.js"></script>
+</body>
+</html>
