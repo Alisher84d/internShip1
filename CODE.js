@@ -22,7 +22,7 @@ function createProductCard(product) {
 async function fetchProducts() {
   try {
     const response = await fetch('./db.json');
-    if (!response.ok) throw new Error('db.json fayli topilmadi!');
+    if (!response.ok) throw new Error('internetni yoq');
 
     allData = await response.json();
 
@@ -30,7 +30,7 @@ async function fetchProducts() {
     if (allData.students && allData.students.length > 0) {
       renderProducts(allData.students);
     } else {
-      bestSellers.innerHTML = '<p>Students mahsulotlari topilmadi</p>';
+  return;
     }
 
     setupCategoryFilter();
@@ -38,14 +38,13 @@ async function fetchProducts() {
     updateFavoriteBadge();
 
   } catch (error) {
-    console.error("❌ Xatolik:", error);
-    bestSellers.innerHTML = `<p style="color: red; padding: 20px;">Xato: ${error.message}</p>`;
+    console.error(" Xato", error);
+    
   }
 }
 
 function renderProducts(products) {
   if (!products || products.length === 0) {
-    bestSellers.innerHTML = '<p style="padding: 20px;">Bu kategoriyada mahsulot yo\'q</p>';
     return;
   }
 
@@ -71,7 +70,7 @@ function attachEventListeners(products) {
       const product = products.find(p => p.id === productId);
       if (product) {
         addToFavorite(product);
-        alert(`"${product.title}" sevimlilarga qo'shildi!`);
+        alert(`"${product.title}" fovga qo'shildi!`);
         updateFavoriteBadge();
       }
     });
